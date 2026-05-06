@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q-js-001",
+    "type": "enigme",
+    "title": "Const et reassignment",
+    "difficulty": "easy",
+    "question": "Je suis déclaré avec const. Puis-je être réassigné ?",
+    "hint": "Répondre par oui ou non.",
+    "answer": "non",
+    "xp": 20
+  },
+  {
+    "id": "q-node-002",
+    "type": "enigme",
+    "title": "Arguments CLI en Node.js",
+    "difficulty": "easy",
+    "question": "Quel objet contient les arguments CLI en Node.js ?",
+    "hint": "Il commence par process.",
+    "answer": "process.argv",
+    "xp": 25
+  },
+  {
+    "id": "q-api-003",
+    "type": "enigme",
+    "title": "Création d'une ressource HTTP",
+    "difficulty": "medium",
+    "question": "Quel verbe HTTP utilise-t-on pour créer une ressource ?",
+    "hint": "4 lettres en majuscule.",
+    "answer": "post",
+    "xp": 30
+  },
+  {
+    "id": "q-node-004",
+    "type": "enigme",
+    "title": "Lecture fichier asynchrone",
+    "difficulty": "medium",
+    "question": "Quel module natif moderne utilises-tu pour readFile avec import ?",
+    "hint": "Format node:.../promises",
+    "answer": "node:fs/promises",
+    "xp": 35
+  },
+  {
+    "id": "q-archi-005",
+    "type": "enigme",
+    "title": "Rôle de store.js",
+    "difficulty": "hard",
+    "question": "Quel fichier du projet gère la lecture/écriture JSON ?",
+    "hint": "Il est dans src.",
+    "answer": "store.js",
+    "xp": 40
+  }
+]
