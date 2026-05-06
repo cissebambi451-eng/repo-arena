@@ -1,5 +1,6 @@
 import path from "node:path";
-const ROOT = process.cwd(); // la racine du projet /app
+
+const ROOT = process.cwd();
 
 const cleanEnv = (value, fallback) => {
   const text = String(value ?? "").trim();
@@ -9,6 +10,6 @@ const cleanEnv = (value, fallback) => {
 
 const dataDir = cleanEnv(process.env.NAME_DATA, "data");
 
-export const playersPath = path.join(ROOT, dataDir, "players.json");
-export const enigmesPath = path.join(ROOT, dataDir, "enigmes.json");
-export const attemptsPath = path.join(ROOT, dataDir, "attempts.json");
+export const participantsPath = path.join(ROOT, dataDir, "participants.json");
+export const challengesPath = path.join(ROOT, dataDir, "challenges.json");
+export const completionsPath = path.join(ROOT, dataDir, "completions.json");

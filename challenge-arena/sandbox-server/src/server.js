@@ -1,22 +1,32 @@
-// point d'entrée de l'application 
-
 import express from "express";
-import { createPlayerController, playersController } from "./controllers/playerController.js";
-import { answerEnigmeController, enigmesController } from "./controllers/enigmeController.js";
+import {
+  participantsController,
+  createParticipantController,
+  leaderboardController
+} from "./controllers/participantsController.js"; 
+
+import {
+  challengesController,
+  createChallengeController,
+  validateChallengeController
+} from "./controllers/challengesController.js";
 
 const app = express();
 
 app.use(express.json());
 
-// endpoint connecter à son controleur
-app.get("/players", playersController);
+// Participants
+app.get("/participants", participantsController);
+app.post("/participants", createParticipantController);
 
-// POST /players
-app.post("/players", createPlayerController);
-app.get("/enigmes", enigmesController);
-app.post("/enigmes/:id/answer", answerEnigmeController);
-app.post("/enigmes/:id/answers", answerEnigmeController);
+// Classement
+app.get("/leaderboard", leaderboardController);
+
+// Challenges
+app.get("/challenges", challengesController);
+app.post("/challenges", createChallengeController);
+app.post("/challenges/:id/validate", validateChallengeController);
 
 app.listen(3000, () => {
-  console.log(`Server listening on 3000`);
+  console.log("Server listening on 3000");
 });

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "a1b2c3d4-0001-4000-8000-000000000001",
+    "name": "Alice",
+    "points": 15,
+    "completedChallenges": []
+  },
+  {
+    "id": "a1b2c3d4-0002-4000-8000-000000000002",
+    "name": "Bob",
+    "points": 0,
+    "completedChallenges": []
+  },
+  {
+    "id": "a1b2c3d4-0003-4000-8000-000000000003",
+    "name": "Camille",
+    "points": 0,
+    "completedChallenges": []
+  },
+  {
+    "id": "a1b2c3d4-0004-4000-8000-000000000004",
+    "name": "Dylan",
+    "points": 0,
+    "completedChallenges": []
+  },
+  {
+    "id": "a1b2c3d4-0005-4000-8000-000000000005",
+    "name": "Eva",
+    "points": 0,
+    "completedChallenges": []
+  },
+  {
+    "id": "4b44ae72-3bb3-4c3c-877a-df477226b66d",
+    "name": "bambi",
+    "createdAt": "2026-05-06T13:55:11.379Z"
+  },
+  {
+    "id": "75c423e0-877e-4d71-9320-273bee995f8e",
+    "name": "bambi",
+    "createdAt": "2026-05-06T14:00:00.861Z"
+  },
+  {
+    "id": "9b85fe01-cedb-41bb-bd50-62f5a0300bf3",
+    "name": "bambi",
+    "createdAt": "2026-05-06T14:05:13.526Z"
+  },
+  {
+    "id": "23d44f02-e289-4acc-b04c-7fa59b53e763",
+    "name": "bambi",
+    "createdAt": "2026-05-06T14:07:14.640Z"
+  },
+  {
+    "id": "0fec7160-61f6-4b15-ae16-59ec8ace9cb0",
+    "name": "bambi",
+    "createdAt": "2026-05-06T14:08:38.932Z"
+  },
+  {
+    "id": "3444abe8-61ec-4038-afeb-49a24d185e1c",
+    "name": "bambi",
+    "createdAt": "2026-05-06T18:38:11.015Z"
+  }
+]
